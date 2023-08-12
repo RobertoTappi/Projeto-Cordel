@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 8vw;
+    font-family: Passion One, sans-serif;
+    padding: 50px 0px 10px 0px;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 45px;
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+    font-family: Passion One, sans-serif;
+    font-size: 20px;
+}
+
+article {
+    margin-top: 100px;
+}
+
+article p {
+    font-family: Sriracha, sans-serif;
+    font-size: 3vw;
+    line-height: 2em;
+    margin-left: 30px;
+}
+
+#container {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    margin: 0;
+    padding: 90px 0px;
+    background: black url(img/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+#primeiro {
+    padding-bottom: 100px;
+}
+
+#segundo {
+    padding: 20px 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.455);
+    width: fit-content;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#terceiro {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+#quarto {
+    padding-bottom: 100px;
+}
+
+#container2 {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    margin: 0;
+    padding: 90px 0px;
+    background: black url(img/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+#quinto {
+    padding: 20px 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.455);
+    width: fit-content;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#sexto {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+#setimo {
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: black;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
